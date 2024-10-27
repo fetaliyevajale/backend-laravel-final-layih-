@@ -1,0 +1,156 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.admin-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.admin-header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.admin-header nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.admin-header nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+.admin-header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.admin-main {
+    flex: 1;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.admin-footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+
+/* login css  */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #4A90E2, #8E44AD); 
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.login-container {
+    max-width: 400px;
+    width: 100%;
+    padding: 40px;
+    background-color: #ffffff;
+    border-radius: 10px; 
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s; 
+}
+
+.login-container:hover {
+    transform: translateY(-3px); 
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #333;
+    font-size: 24px;
+    letter-spacing: 0.5px; 
+}
+
+/* Xəta mesajı */
+.alert {
+    background-color: #f8d7da;
+    color: #721c24;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #f5c6cb;
+    border-radius: 5px;
+}
+
+/* Input sahələri */
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px; 
+    font-size: 16px; 
+    transition: border-color 0.3s, box-shadow 0.3s; 
+}
+
+/* Input hover effekti */
+input[type="email"]:hover,
+input[type="password"]:hover {
+    border-color: #007bff; 
+}
+
+
+input[type="email"]:focus,
+input[type="password"]:focus {
+    border-color: #0056b3; 
+    box-shadow: 0 0 5px rgba(0, 86, 179, 0.5); 
+    outline: none; 
+}
+
+
+button {
+    width: 425px;
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px; 
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s; 
+}
+
+button:hover {
+    background-color: #0056b3; 
+    transform: scale(1.02); 
+}
+
+
+button:focus {
+    outline: none; 
+}
+
+
+.forgot-password {
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 14px;
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.forgot-password:hover {
+    text-decoration: underline; 
+    color: #0056b3;
+}
+
